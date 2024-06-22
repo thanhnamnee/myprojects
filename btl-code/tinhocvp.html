@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thanhniennce.com</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="font/themify-icons/themify-icons.css">
+    <script src="main.js"></script>
+</head>
+<style>
+    .banquanly-ten {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0058c0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .banquanly {
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heading-trangchu {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        align-items: center;
+        padding-top: 30px;
+        color: #0058C0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .tieude-trangchu {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        padding-top: 12px;
+    }
+    .noidung-trangchu {
+        padding-top: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #nav {
+    position: relative;     
+    z-index: 1000;  
+    transition: top 0.3s ease; 
+    }
+    footer {
+        margin-top: 30px;
+        height: 200px;
+        background: linear-gradient(to bottom, #1086e0 50%, #9CC0D8 100%);
+    }  
+    .chantrang {
+        padding-top: 10px;
+        margin-left: 215px;
+        width: 1100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .chantrang-phai {
+        text-align: right;
+        padding: 0;
+    }
+    .chantrang-phai p {
+        margin: 5px;
+    }
+    .chantrang-phai a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .chantrang-phai a:hover {
+        color: blue;
+    }
+    .chantrang-trai img {
+        width: 100px;
+    }
+    .note {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+    }
+    .left-content{
+        margin-right: 0;
+        padding-left: 230px;
+        text-align: justify;
+    }
+    .heading-nhvl {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .content {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .first-link 
+    {
+        padding-top: 5px;
+        padding: 10px 10px 10px 10px;
+        background-color: #2C95E2;
+    }
+    .link-right-content {
+        padding-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    .first-link .row .col-sm-9 a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .first-link .row .col-sm-9 a:hover {
+        color: yellow;
+    }
+    .date {
+        font-style: italic;
+        padding-top: 7.5px
+    }
+    .second-link {
+        padding-top: 5px;
+    }
+    .third-link {
+        padding-top: 5px;
+    }
+    .fourth-link {
+        padding-top: 5px;
+    }
+    .fiveth-link {
+        padding-top: 5px;
+    }
+    .sixth-link {
+        padding-top: 5px;
+    }
+    .seventh-link {
+        padding-top: 5px;
+    }
+    .eighth-link {
+        padding-top: 5px;
+        background-color: #2C95E2;
+    }
+    .eighth-link h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+    .ninth-link {
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ninth-link a{
+        padding: 5px 10px;
+    }
+    .tenth-link {
+        padding-top: 5px;
+    }
+    .tenth-link a {
+        padding: 2px 5px;
+    }
+    .heading {
+        font-weight: 700;
+    }
+    .heading-con {
+        font-style: italic;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="img-header"><img style="width: auto; height: 135.05px;" src="" alt="" srcset="images/header-sua.png 2x"></div>
+            <ul id="nav">
+                <li style="margin-left: 237px;"><a href="index.php">TRANG CHỦ</a></li>
+                <li><a href="cocautochuc.html">CƠ CẤU TỔ CHỨC</a></li>
+                <li><a href="dangnhap.php">QUẢN LÝ ĐOÀN VIÊN</a></li>
+                <li style="float:right"><a class="active" href="about.html">VỀ ĐOÀN TRƯỜNG</a></li>
+            </ul>
+        </div>
+        <div class="row row-no-gutters content">
+            <div class="col-sm-8 left-content">
+                <p class="heading-nhvl">150 thí sinh tranh tài Vòng chung kết Cuộc thi vô địch tin học Văn phòng thế giới năm 2024</p>
+                <div class="infor-nhvl">
+                    <p><a style="font-weight: 700; font-style: italic;">09:14 31/03/2024</a></p>
+                </div>
+                <p>ĐTN: Ngày 31/3, 150 tài năng Tin học văn phòng xuất sắc nhất toàn quốc ở 6 nội dung thi đã chính thức tranh tài tại Vòng chung kết quốc gia cuộc thi Vô địch Tin học văn phòng Thế giới – Viettel 2024 (MOSWC - Viettel 2024).</p>
+                <p class="content">Đây là những gương mặt xuất sắc đã vượt qua hơn 2.000 thí sinh đến từ gần 200 đội tuyển các trường phổ thông, cao đẳng, đại học, học viện đã tham gia Vòng loại quốc gia hôm 17/3 vừa qua. </p>
+                <img style="margin-bottom: 13px;" src="" alt="" srcset="images/thisinh.jpg 1.27x">
+                <p class="content">Tại vòng thi này, các thí sinh sẽ có thời gian 160 phút để thực hiện bài thi tổng hợp đánh giá kỹ năng và tư duy vận dụng các kỹ năng Tin học văn phòng bằng ngôn ngữ tiếng Anh. Sau vòng thi, 6 nhà vô địch ở 6 nội dung thi sẽ đại diện cho đội tuyển MOS Việt Nam mùa giải 2024 tham dự đấu trường MOS World Championship thế giới diễn ra tại thành phố Anaheim, California, Hoa Kỳ vào cuối tháng 7/2024.</p>
+                <p class="content">Ban tổ chức cho biết, sau Vòng loại quốc gia vừa qua, gần 86% thí sinh dự thi đạt từ 700 điểm trở lên - mức điểm đủ điều kiện được cấp chứng chỉ MOS do Microsoft thế giới chứng nhận có giá trị toàn cầu, hỗ trợ đắc lực cho học tập và tìm kiếm cơ hội việc làm trong thời đại số hóa.</p>
+                <p class="content">Cuộc thi năm nay ghi nhận số lượng thí sinh đạt điểm tuyệt đối (1.000 điểm) cao kỷ lục với 156 em, trong đó có 105 em ở bậc học phổ thông. Đặc biệt, có em hoàn thành bài thi chưa đến 10 phút. Điều đó cho thấy trình độ và kỹ năng Tin học văn phòng của học sinh ngày một nâng cao rõ rệt, nhất là khi các em được nhà trường quan tâm tạo điều kiện tiếp cận với chương trình Tin học quốc tế mới. </p>
+                <img style="margin-bottom: 13px;" src="" alt="" srcset="images/thisinh2.jpg 1.27x">
+                <p class="content">Đáng chú ý, trong số 150 thí sinh xuất sắc toàn quốc tham gia VCK quốc gia có hơn một nửa là đang học phổ thông, trong đó có em mới học lớp 7. Nhiều em đến từ các địa phương vùng sâu, vùng xa của Lâm Đồng, Đăk Lắk, An Giang, Yên Bái – nơi điều kiện học tập Tin học còn nhiều hạn chế đã xuất sắc vượt qua Vòng loại, bước tiếp vào tranh tài tại VCK quốc gia. </p>
+                <p class="content">Bà Đoàn Nguyễn Vân Khanh, Phó Tổng giám đốc Tổ chức giáo dục IIG Việt Nam, đồng Ban tổ chức cấp quốc gia của Cuộc thi chia sẻ: “Năm nay ghi nhận nhiều kết quả nổi bật ngay từ Vòng loại quốc gia. Điều đó cho thấy chất lượng dạy và học Tin học theo chuẩn quốc tế tại nhiều địa phương ngày một nâng lên. Đó là một phần đến từ sự quan tâm, định hướng cấp tiến của các nhà trường và ngành Giáo dục & Đạo tạo các tỉnh trong hoạt động dạy và học Tin học bắt kịp với xu hướng mới, đáp ứng yêu cầu nguồn nhân lực chất lượng cao của xã hội”.</p>
+                <p class="content">Sau Vòng chung kết quốc gia, BTC trao 06 giải Nhất, 18 giải Nhì, 30 giải Ba, 72 giải Khuyến khích và 06 giải Triển vọng cùng nhiều giải thưởng hấp dẫn dành cho cá nhân và tập thể đạt thành tích xuất sắc trong Cuộc thi. </p>
+            </div>
+            <div class="col-sm-4 right-content">
+                <div class="row">
+                    <div class="col-sm-8 link-right-content">
+                        <div class="first-link">
+                            <div class="row first-link-content">
+                                <div class="col-sm-3">
+                                    <img srcset="images/sseayp.jpg 40x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/tinhocvp.jpg 13.5x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/thieunhi.jpg 13.5x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/tuvanhuongnghiep.jpeg 17x" alt="">
+                                </div>
+                                <div class="col-sm-9">
+                                    <div><a href="tuyendaibieu.html">Tuyển đại biểu Chương trình Tàu Thanh niên Đông Nam Á - Nhật Bản (SSEAYP) lần thứ 49</a></div>
+                                    <div class="date">05/04/2024</div>
+                                    <div style="padding-top: 4px;"><a href="tinhocvp.html">150 thí sinh tranh tài Vòng chung kết Cuộc thi vô địch tin học Văn phòng thế giới năm 2024</a></div>
+                                    <div class="date">31/03/2024</div>
+                                    <div style="padding-top: 4px;"><a href="sanchoichotre.html">Hội đồng Đội T.Ư trao tặng sân chơi dành cho thiếu nhi tại Ninh Bình và Thái Bình</a></div>
+                                    <div class="date">30/03/2024</div>
+                                    <div style="padding-top: 10px;"><a href="tuvanhuongnghiep.html">Ngày hội Tư vấn hướng nghiệp, giáo dục nghề nghiệp và giới thiệu việc làm cho thanh niên</a></div>
+                                    <div class="date">31/03/2024</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-link">
+                            <a href=""><img src="" alt="" srcset="images/vape.jpg 1.91x"></a>
+                        </div>
+                        <div class="third-link">
+                            <a href="https://saymee.vn/tin-tuc"><img src="" alt="" srcset="images/getintouch.jpg 2.545x"></a>
+                        </div>
+                        <div class="fourth-link">
+                            <a href="https://www.facebook.com/truongcdsptw/"><img src="" alt="" srcset="images/bannerfb_nce.jpg 9.979x"></a>
+                        </div>
+                        <div class="fiveth-link">
+                            <a href="https://www.facebook.com/khoagiaoducmamnon/"><img src="" alt="" srcset="images/bannergdmn.jpg 8.89x"></a>
+                        </div>
+                        <div class="sixth-link">
+                            <a href="https://www.facebook.com/profile.php?id=100093840069307"><img src="" alt="" srcset="images/hoptacqt.jpg 3.356x"></a>
+                        </div>
+                        <div class="seventh-link">
+                            <a href="https://www.facebook.com/profile.php?id=100067236774416&ref=settings"><img src="" alt="" srcset="images/khoant.jpg 10.85x"></a>
+                        </div>
+                        <div class="eighth-link">
+                            <h1>ĐOÀN THANH NIÊN-HỘI SINH VIÊN</h1>
+                        </div> 
+                        <div class="ninth-link">
+                            <a href="https://www.facebook.com/thanhniencdsptw/"><img src="" alt="" srcset="images/logodoantncdsptw.png 15x"></a>
+                            <a href="https://www.facebook.com/hoisinhviencdsptw/"><img src="" alt="" srcset="images/logohoisvcdsptw.png 15x"></a>
+                        </div>  
+                        <div class="eighth-link">
+                            <h1>TRƯỜNG MẦM NON THỰC HÀNH</h1>
+                        </div> 
+                        <div class="tenth-link">
+                            <a href="https://mamnonthuchanhhoasen.edu.vn/"><img src="" alt="" srcset="images/mnhoasen.jpg 2x"></a>
+                            <a href="http://hoathuytien.cdsptw.edu.vn/"><img src="" alt="" srcset="images/mnhoathuytien.jpg 2.7x"></a>
+                            <a href="https://thucnghiemhoahong.edu.vn/"><img src="" alt="" srcset="images/mnhoahong.jpg 6.5x"></a>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="row chantrang">
+        <div class="col-sm-7 chantrang-trai">
+            <img src="images/logo.png" alt="">
+            <p style="padding-top: 43px; margin-bottom: 0;">® 2024 Bản quyền thuộc Đinh Thành Nam-MSV: 211118010018</p>
+        </div>
+        <div class="col-sm-5 chantrang-phai">
+            <p>Thông tin liên hệ Cổng Thông tin Điện tử Trường Cao đẳng Sư phạm Trung ương</p>
+            <p>Địa chỉ: 387 Hoàng Quốc Việt, Cầu Giấy, Hà Nội</p>
+            <p>Điện thoại: (04) 37564230 - (04) 37914850.</p>
+            <p>Email: cdsptw@cdsptw.edu.vn; nce@cdsptw.edu.vn</p>
+            <a href="http://www.cdsptw.edu.vn" target="_blank">Website: http://www.cdsptw.edu.vn</a>
+        </div>
+    </div>
+    <div class="note">
+        <p>Ghi rõ nguồn “Website Đoàn Thanh Niên CĐSPTW - http://www.cdsptw.edu.vn” khi phát hành lại thông tin từ website này.</p>
+    </div>
+</footer>
+</html>

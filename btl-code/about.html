@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thanhniennce.com</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="font/themify-icons/themify-icons.css">
+    <script src="main.js"></script>
+</head>
+<style>
+    .banquanly-ten {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0058c0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .banquanly {
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .heading-trangchu {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        align-items: center;
+        padding-top: 30px;
+        color: #0058C0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .tieude-trangchu {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        padding-top: 12px;
+    }
+    .noidung-trangchu {
+        padding-top: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #nav {
+    position: relative;     
+    z-index: 1000;  
+    transition: top 0.3s ease; 
+    }
+    footer {
+        margin-top: 30px;
+        height: 200px;
+        background: linear-gradient(to bottom, #1086e0 50%, #9CC0D8 100%);
+    }  
+    .chantrang {
+        padding-top: 10px;
+        margin-left: 215px;
+        width: 1100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    .chantrang-phai {
+        text-align: right;
+        padding: 0;
+    }
+    .chantrang-phai p {
+        margin: 5px;
+    }
+    .chantrang-phai a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .chantrang-phai a:hover {
+        color: blue;
+    }
+    .chantrang-trai img {
+        width: 100px;
+    }
+    .note {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: red;
+    }
+    .left-content{
+        margin-right: 0;
+        padding-left: 230px;
+    }
+    .heading-nhvl {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .content {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .first-link 
+    {
+        padding-top: 5px;
+        padding: 10px 10px 10px 10px;
+        background-color: #2C95E2;
+    }
+    .link-right-content {
+        padding-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    .first-link .row .col-sm-9 a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .first-link .row .col-sm-9 a:hover {
+        color: yellow;
+    }
+    .date {
+        font-style: italic;
+        padding-top: 7.5px
+    }
+    .second-link {
+        padding-top: 5px;
+    }
+    .third-link {
+        padding-top: 5px;
+    }
+    .fourth-link {
+        padding-top: 5px;
+    }
+    .fiveth-link {
+        padding-top: 5px;
+    }
+    .sixth-link {
+        padding-top: 5px;
+    }
+    .seventh-link {
+        padding-top: 5px;
+    }
+    .eighth-link {
+        padding-top: 5px;
+        background-color: #2C95E2;
+    }
+    .eighth-link h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        padding: 15px 0 15px 0;
+    }
+    .ninth-link {
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ninth-link a{
+        padding: 5px 10px;
+    }
+    .tenth-link {
+        padding-top: 5px;
+    }
+    .tenth-link a {
+        padding: 2px 5px;
+    }
+    .heading {
+        padding-top: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        color: #0058C0;
+    }
+    .content {
+        text-align: justify;
+    }
+    .note-img {
+        text-align: center;
+        font-style: italic;
+        opacity: 0.7;
+        padding-top: 10px;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="img-header"><img style="width: auto; height: 135.05px;" src="" alt="" srcset="images/header-sua.png 2x"></div>
+            <ul id="nav">
+                <li style="margin-left: 237px;"><a href="index.php">TRANG CHỦ</a></li>
+                <li><a href="cocautochuc.html">CƠ CẤU TỔ CHỨC</a></li>
+                <li><a href="dangnhap.php">QUẢN LÝ ĐOÀN VIÊN</a></li>
+                <li style="float:right"><a class="active" href="#">VỀ ĐOÀN TRƯỜNG</a></li>
+            </ul>
+        </div>
+        <div class="row row-no-gutters content">
+            <div class="col-sm-8 left-content">
+                <p class="heading">TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG <br>NHỮNG THẬP KỶ XÂY DỰNG VÀ ĐỔI MỚI</p>
+                <p class="content">Cách đây 28 năm, theo Nghị định 93/HĐBT của Hội đồng Bộ trưởng (nay là Chính phủ) Trường Cao đẳng Sư phạm Nhà trẻ - Mẫu giáo Trung ương I được thành lập với nhiệm vụ là đào tạo, bồi dưỡng Giáo viên, Cán bộ quản lý mẫu giáo với trình độ Cao đẳng và nghiên cứu khoa học giáo dục trước tuổi đến Trường phổ thông. Trường được hình thành trên nền thành tựu đã đạt được của hai Trường Sư phạm Mẫu giáo TW Hà Nam (1964 - 1988) và Trường Trung cấp nuôi dạy trẻ TW (1972 - 1988). Hai trường này đã hoàn thành tốt nhiệm vụ chính trị của mình, đào tạo hàng nghìn giáo viên Nhà trẻ, Mẫu giáo, đóng góp to lớn cho việc xây dựng, phát triển đội ngũ cán bộ, giáo viên bậc Mầm non nước nhà.</p>
+                <p class="content">Hai mươi năm qua là một chặng đường quan trọng trong lịch sử phát triển của một Trường Cao đẳng sư phạm - chặng đường đổi mới, phát triển liên tục và luôn giữ vững vai trò là một Trường trọng điểm số một trong khối các Trường Sư phạm Mầm non của cả nước.  </p>
+                <img class="img-content" src="" alt="" srcset="images/cdsp.jpg 0.77x">
+                <p class="note-img">Trường Cao đẳng Sư phạm Trung ương - Những thập kỷ xây dựng và đổi mới</p>
+                <p class="content">Công tác đào tạo luôn được Nhà trường xác định là nhiệm vụ trọng tâm và mọi hoạt động trong công tác đào tạo luôn được thực hiện nghiêm túc, đúng quy chế. Từ 2003 trở về trước, Nhà trường mới chuyên đào tạo Giáo viên Mầm non, với quy mô ngày càng lớn và luôn có những đổi mới về mục tiêu, nội dung, phương pháp giáo dục, thực hành, thực tập. Do vậy, chất lượng đào tạo của Nhà trường ngày càng được nâng cao và sinh viên tốt nghiệp ra trường có tay nghề vững vàng đáp ứng yêu cầu của Ngành và được xã hội chấp nhận, đánh giá cao. Tỷ lệ sinh viên tốt nghiệp có việc làm đúng ngành đào tạo không ngừng tăng lên.</p>
+                <p class="content">Từ năm học 2003 - 2004, xuất phát từ nhu cầu của xã hội và tiềm lực của Nhà trường, được sự đồng ý của Bộ Giáo dục và Đào tạo, Nhà trường đã dần chuyển thành Trường đào tạo đa ngành bằng việc mở thêm nhiều ngành đào tạo mới như Sư phạm âm nhạc, Giáo dục Đặc biệt, Sư phạm Mỹ thuật, Giáo dục công dân, Sư phạm Công nghệ, Thông tin - Thư viện, Tin học, Công tác xã hội, Văn thư lưu trữ, Quản trị văn phòng, Thư ký văn phòng.... Và đến nay Nhà trường đã có 17 ngành đào tạo cả trình độ Cao đẳng và Trung cấp chuyên nghiệp.</p>
+                <p class="content">Để phản ánh đúng nhiệm vụ chính trị của Trường, cuối năm 2005 Nhà trường đã xây dựng Đề án đổi tên Trường và ngày 26/01/2006 Bộ Giáo dục và Đào tạo đã ra Quyết định số 509/QĐ-BGD&ĐT đổi tên Trường thành Trường Cao đẳng Sư phạm Trung ương. Trường Cao đẳng Sư phạm Trung ương có nhiệm vụ:</p>
+                <p class="content">- Đào tạo và bồi dưỡng giáo viên có trình độ cao đẳng cho Giáo dục Mầm non và các Trường chuyên biệt.</p>
+                <p class="content">- Đào tạo và bồi dưỡng cán bộ có trình độ cao đẳng và các trình độ thấp hơn một số chuyên ngành khác: Nghệ thuật, Nhân văn, Thông tin - Thư viện, Dịch vụ xã hội, Quản lý giáo dục.</p>
+                <p class="content">- Nghiên cứu khoa học phục vụ yêu cầu phát triển kinh tế - xã hội.</p>
+                <p class="content">Những năm gần đây, do các mã ngành đào tạo tăng lên cùng với uy tín của Nhà trường nên lượng thí sinh đăng ký thi vào Trường ngày càng đông và quy mô đào tạo của Trường ngày càng mở rộng. Hàng năm, Nhà trường tuyển sinh gần 5000 thí sinh cho các hệ Cao đẳng và Trung cấp chuyên nghiệp.</p>
+                <p class="content">Việc xây dựng chương trình đào tạo cũng luôn được chú trọng và chỉ đạo triển khai có hiệu quả. Đến nay, chương trình khung và chương trình chi tiết của các ngành đào tạo đều đã được hoàn thành, trong đó có chương trình đào tạo ngành Giáo dục Mầm non và Giáo dục Đặc biệt trình độ Cao đẳng đã được Bộ trưởng phê chuẩn dùng cho các trường đào tạo Giáo viên Mầm non trong cả nước.</p>
+                <p class="content">Để nâng cao chất lượng đào tạo, Nhà trường luôn quan tâm, chỉ đạo việc biên soạn và dịch tài liệu, giáo trình phục vụ cho công tác giảng dạy và học tập.</p>
+                <p class="content">Ngoài việc thực hiện tốt công tác đào tạo hệ Cao đẳng và Trung cấp chuyên nghiệp tại Trường và tại các cơ sở liên kết, những năm qua Nhà trường đã và đang hợp tác với một số Trường Đại học để mở các lớp đào tạo liên thông lên đại học cho các ngành Giáo dục Mầm non, Quản lý giáo dục, Giáo dục công dân, Sư phạm âm nhạc, Sư phạm Mỹ thuật v.v...</p>
+                <p class="content">Bên cạnh việc mở rộng quy mô đào tạo, đổi mới nội dung và phương pháp giảng dạy, Trường Cao đẳng Sư phạm Trung ương còn đẩy mạnh công tác Nghiên cứu khoa học và Hợp tác Quốc tế, xem đây là những kênh quan trọng nâng cao chất lượng đào tạo và uy tín của Nhà trường.</p>
+                <p class="content">Hoạt động nghiên cứu khoa học trong Nhà trường ngày càng được tăng cường. Trong những năm qua, cán bộ của Nhà trường đã chủ trì thực hiện 65 đề tài, dự án nghiên cứu khoa học cấp Bộ và hàng trăm đề tài nghiên cứu cấp Trường. Trong đó có 01 đề tài nghiên cứu khoa học cấp Nhà nước, 04 đề tài nghiên cứu khoa học trọng điểm cấp Bộ, 06 đề tài nghiên cứu khoa học về giáo dục bảo vệ môi trường trong lĩnh vực Giáo dục Mầm non. Hầu hết các đề tài nghiên cứu khoa học nghiệm thu đều được đánh giá loại tốt và kết quả nghiên cứu đã được triển khai, ứng dụng trong công tác đào tạo, trong việc chăm sóc và giáo dục trẻ. Công tác nghiên cứu khoa học của sinh viên cũng được quan tâm, phát triển và đóng góp to lớn vào việc nâng cao chất lượng đào tạo.</p>
+                <p class="content">Hoạt động hợp tác quốc tế ngày càng được mở rộng và ngày càng phát huy hiệu quả. Thông qua các hoạt động hợp tác với các tổ chức, đơn vị trong và ngoài nước, Nhà trường đã tổ chức được nhiều Hội nghị, Hội thảo khoa học mang tính chất quốc gia. Bốn năm qua kể từ 2004, Nhà trường tổ chức các lớp bồi dưỡng chuyên môn cho đội ngũ giảng viên các trường sư phạm có đào tạo Giáo viên Mầm non và đội ngũ Giáo viên các trường Mầm non, cán bộ quản lý giáo dục Mầm non của trên 50 tỉnh thành với sự tham gia giảng dạy của nhiều chuyên gia nước ngoài. Các Hội thảo khoa học và các lớp bồi dưỡng đều được Bộ và các đơn vị cơ sở đánh giá cao.</p>
+                <p class="content">Đồng thời, Nhà trường đã mở rộng quan hệ với nhiều nước như Singapore, Đan Mạch, Hàn Quốc, Hoa Kỳ, Hà Lan, Lào..., nhiều tổ chức quốc tế như VSO (Anh), SIF (Singapore), Uỷ ban II Hà Lan, Plan International, Nipon Foundation,... Đồng thời thường xuyên có sự trao đổi, giao lưu, học tập lẫn nhau và mời chuyên gia giảng dạy cho sinh viên một số ngành như Giáo dục Mầm non, Giáo dục Đặc biệt...</p>
+                <p class="content">Trên cơ sở nhận thức đúng đắn về tầm quan trọng của chiến l­ược cán bộ, trong nhiều năm qua Đảng uỷ, Ban giám hiệu Nhà tr­ường đã quán triệt sâu sắc và thực hiện tốt từ công tác tuyển dụng, đến công tác đào tạo, bồi dư­ỡng cán bộ về mọi mặt. Do đó đội ngũ cán bộ của Nhà tr­ường đặc biệt là cán bộ giảng dạy ngày càng lớn mạnh cả về số lư­ợng và chất lượng. Đến nay, tổng số cán bộ của Trường là 470 người (gồm ba Trường Mầm non thực hành), trong đó có :TS: 20 người; Ths: 179 người; Giảng viên: 158 người trong đó Giảng viên cao cấp 01 người, Giảng viên CĐSP chính 49 người, Giảng viên CĐSP 108 người.</p>
+                <p class="content">Ngành nghề được mở rộng, thích ứng với nhu cầu của xã hội, không ngừng đổi mới đào tạo, với đội ngũ cán bộ ngày càng vững mạnh về chuyên môn nghiệp vụ, đẩy mạnh nghiên cứu khoa học và hợp tác Quốc tế để hoàn thiện chất lượng, Trường Cao đẳng Sư phạm Trung ương đã tạo được sức hấp dẫn với người học và trở thành địa chỉ đáng tin cậy có nhiều đóng góp to lớn trong việc đào tạo đội ngũ cán bộ, giáo viên, đặc biệt là Giáo viên Mầm non. Trường Cao đẳng Sư phạm Trung ương đã vinh dự được đón nhận Huân chương Lao động hạng Nhất do Nhà nước trao tặng.</p>
+            </div>
+            <div class="col-sm-4 right-content">
+                <div class="row">
+                    <div class="col-sm-8 link-right-content">
+                        <div class="first-link">
+                            <div class="row first-link-content">
+                                <div class="col-sm-3">
+                                    <img srcset="images/sseayp.jpg 40x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/tinhocvp.jpg 13.5x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/thieunhi.jpg 13.5x" alt="">
+                                    <img style="padding-top: 10px;" srcset="images/tuvanhuongnghiep.jpeg 17x" alt="">
+                                </div>
+                                <div class="col-sm-9">
+                                    <div><a href="tuyendaibieu.html">Tuyển đại biểu Chương trình Tàu Thanh niên Đông Nam Á - Nhật Bản (SSEAYP) lần thứ 49</a></div>
+                                    <div class="date">05/04/2024</div>
+                                    <div style="padding-top: 4px;"><a href="tinhocvp.html">150 thí sinh tranh tài Vòng chung kết Cuộc thi vô địch tin học Văn phòng thế giới năm 2024</a></div>
+                                    <div class="date">31/03/2024</div>
+                                    <div style="padding-top: 4px;"><a href="sanchoichotre.html">Hội đồng Đội T.Ư trao tặng sân chơi dành cho thiếu nhi tại Ninh Bình và Thái Bình</a></div>
+                                    <div class="date">30/03/2024</div>
+                                    <div style="padding-top: 10px;"><a href="tuvanhuongnghiep.html">Ngày hội Tư vấn hướng nghiệp, giáo dục nghề nghiệp và giới thiệu việc làm cho thanh niên</a></div>
+                                    <div class="date">31/03/2024</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-link">
+                            <a href=""><img src="" alt="" srcset="images/vape.jpg 1.91x"></a>
+                        </div>
+                        <div class="third-link">
+                            <a href=""><img src="" alt="" srcset="images/getintouch.jpg 2.545x"></a>
+                        </div>
+                        <div class="fourth-link">
+                            <a href="https://www.facebook.com/truongcdsptw/"><img src="" alt="" srcset="images/bannerfb_nce.jpg 9.979x"></a>
+                        </div>
+                        <div class="fiveth-link">
+                            <a href="https://www.facebook.com/khoagiaoducmamnon/"><img src="" alt="" srcset="images/bannergdmn.jpg 8.89x"></a>
+                        </div>
+                        <div class="sixth-link">
+                            <a href="https://www.facebook.com/profile.php?id=100093840069307"><img src="" alt="" srcset="images/hoptacqt.jpg 3.356x"></a>
+                        </div>
+                        <div class="seventh-link">
+                            <a href="https://www.facebook.com/profile.php?id=100067236774416&ref=settings"><img src="" alt="" srcset="images/khoant.jpg 10.85x"></a>
+                        </div>
+                        <div class="eighth-link">
+                            <h1>ĐOÀN THANH NIÊN-HỘI SINH VIÊN</h1>
+                        </div> 
+                        <div class="ninth-link">
+                            <a href=""><img src="" alt="" srcset="images/logodoantncdsptw.png 15x"></a>
+                            <a href=""><img src="" alt="" srcset="images/logohoisvcdsptw.png 15x"></a>
+                        </div>  
+                        <div class="eighth-link">
+                            <h1>TRƯỜNG MẦM NON THỰC HÀNH</h1>
+                        </div> 
+                        <div class="tenth-link">
+                            <a href=""><img src="" alt="" srcset="images/mnhoasen.jpg 2x"></a>
+                            <a href=""><img src="" alt="" srcset="images/mnhoathuytien.jpg 2.7x"></a>
+                            <a href=""><img src="" alt="" srcset="images/mnhoahong.jpg 6.5x"></a>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="row chantrang">
+        <div class="col-sm-7 chantrang-trai">
+            <img src="images/logo.png" alt="">
+            <p style="padding-top: 43px; margin-bottom: 0;">® 2024 Bản quyền thuộc Đinh Thành Nam-MSV: 211118010018</p>
+        </div>
+        <div class="col-sm-5 chantrang-phai">
+            <p>Thông tin liên hệ Cổng Thông tin Điện tử Trường Cao đẳng Sư phạm Trung ương</p>
+            <p>Địa chỉ: 387 Hoàng Quốc Việt, Cầu Giấy, Hà Nội</p>
+            <p>Điện thoại: (04) 37564230 - (04) 37914850.</p>
+            <p>Email: cdsptw@cdsptw.edu.vn; nce@cdsptw.edu.vn</p>
+            <a href="http://www.cdsptw.edu.vn" target="_blank">Website: http://www.cdsptw.edu.vn</a>
+        </div>
+    </div>
+    <div class="note">
+        <p>Ghi rõ nguồn “Website Đoàn Thanh Niên CĐSPTW - http://www.cdsptw.edu.vn” khi phát hành lại thông tin từ website này.</p>
+    </div>
+</footer>
+</html>
